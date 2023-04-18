@@ -18,7 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   my_send_job :
        run-on: ubuntu-latest
-         Steps:
+         steps:
            - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event
 
 
